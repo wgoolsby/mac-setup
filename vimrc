@@ -73,14 +73,9 @@ noremap <leader>h :sp<cr>
 noremap <leader>v :vsp<cr>
 
 "JSBeautify
-map <leader>j :call JsBeautify() <cr>
-" or
 autocmd FileType javascript noremap <buffer> <leader>j :call JsBeautify()<cr>
-
 "for html
 autocmd FileType html noremap <buffer> <leader>j :call HtmlBeautify()<cr>
-"for css or scss
-autocmd FileType css noremap <buffer> <leader>j :call CSSBeautify()<cr>
 
 "clear last search highlighting without turning it off
 noremap <C-f> :noh <return><esc>
