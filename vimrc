@@ -25,7 +25,7 @@ set autoindent
 set nobackup
 set noswapfile
 set wrap!
-set columns=160
+set columns=120
 set laststatus=2
 set splitbelow
 

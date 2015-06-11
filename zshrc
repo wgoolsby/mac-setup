@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+ export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="ys"
+ZSH_THEME="frisk"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -58,11 +58,11 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
- if [[ -n $SSH_CONNECTION ]]; then
+if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='vim'
- else
+else
    export EDITOR='vim'
- fi
+   fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -76,30 +76,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+ alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ns="static -a 0.0.0.0"
-alias gs="git status"
-alias gaur="git update-index --assume-unchanged app/registration/config.js"
-alias gacr="git update-index --no-assume-unchanged app/registration/config.js"
-alias gaud="git update-index --assume-unchanged app/dashboard/config.js"
-alias gacd="git update-index --no-assume-unchanged app/dashboard/config.js"
-
+alias vimconfig="vim ~/.vimrc"
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
-
-export NVM_DIR="/Users/wgoolsby/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-code () {
-	if [[ $# = 0 ]]
-	then
-		open -a "Visual Studio Code"
-	else
-		[[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
-		open -a "Visual Studio Code" --args "$F"
-	fi
-}
-
-source dnvm.sh
