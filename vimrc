@@ -101,7 +101,7 @@ let NERDTreeShowHidden=1
 autocmd FileType text setlocal textwidth=80
 
 "Airline
-let g:airline_theme = 'solarized'
+let g:airline_theme = 'bubblegum'
 let g:airline#extensions#tabline#enabled=1
 
 :set smartcase

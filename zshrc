@@ -80,5 +80,7 @@ else
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vimconfig="vim ~/.vimrc"
 
+alias vim="/usr/local/Cellar/vim/8.0.0225/bin/vim"
+
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
