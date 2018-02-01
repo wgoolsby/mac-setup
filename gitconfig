@@ -1,0 +1,18 @@
+[core]
+	editor = code --wait
+	excludesfile = /Users/wilgoolsby/.gitignore_global
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Wil Goolsby
+	email = wil@wilgoolsby.com
+[includeIf "gitdir:~/development/pathwayre/"]
+    path = ~/development/pathwayre/.gitconfig

@@ -1,3 +1,14 @@
 #README
 
-These are my dotfiles.  Feel free to use them.
+These are my config files.
+
+## Tools Covered
+
+### GIT
+### Hyper
+### Visual Studio Code
+### Local Development Servers
+### VIM
+### ESLINT
+
+

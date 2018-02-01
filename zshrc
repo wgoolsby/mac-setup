@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh installation.
- export ZSH=$HOME/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="frisk"
+ZSH_THEME="hyperzsh"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -45,7 +45,7 @@ ZSH_THEME="frisk"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew npm)
+plugins+=(zsh-nvm git brew npm extract jira node)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -59,9 +59,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
+   export EDITOR='code'
 else
-   export EDITOR='vim'
+   export EDITOR='code'
    fi
 
 # Compilation flags
@@ -76,11 +76,30 @@ else
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
- alias zshconfig="vim ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vimconfig="vim ~/.vimrc"
-
-alias vim="/usr/local/Cellar/vim/8.0.0225/bin/vim"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias vimconfig="code ~/.vimrc"
+alias vim="/usr/local/Cellar/vim/8.0.1400_4/bin/vim"
+alias rm=trash
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
+
+# Yarn
+export PATH="$PATH:/opt/yarn-[version]/bin"
+
+# Python executable
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# MySQL
+export PATH="/usr/local/mysql/bin:$PATH"
+
+# Node Version Manager
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# Allow global access to Yarn executables
+export PATH="$PATH:`yarn global bin`"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
