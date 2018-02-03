@@ -15,4 +15,5 @@
   "workbench.activityBar.visible": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.renderControlCharacters": false,
+  "eslint.packageManager": "yarn"
 }
