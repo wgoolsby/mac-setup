@@ -17,6 +17,8 @@ You can run the script with the following arguments
 
 The process is full automated, but watch for password requests.
 
+**Please install Input Mono from http://input.fontbureau.com/download/**
+
 ## OS
 ### macOS
 
