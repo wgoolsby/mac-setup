@@ -40,6 +40,7 @@ The process is full automated, but watch for password requests.
 * Magnet
 * Xcode
 * Desk Cover
+* Spark
 
 ## Tools
 * Homebrew 
