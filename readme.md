@@ -2,7 +2,8 @@
 
 These are my scripts to setup a new Mac.
 
-```git clone https://github.com/wgoolsby/dot-files.git && cd dot-files
+```
+git clone https://github.com/wgoolsby/dot-files.git && cd dot-files
 
 sudo sh setup_scripts/new.sh arg
 ```
