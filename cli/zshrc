@@ -79,7 +79,7 @@ else
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias vimconfig="code ~/.vimrc"
-alias vim="/usr/local/Cellar/vim/8.0.1400_4/bin/vim"
+#alias vim="/usr/local/Cellar/vim/8.0.1400_4/bin/vim"
 alias rm=trash
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
