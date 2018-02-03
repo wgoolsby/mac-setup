@@ -65,5 +65,6 @@ The process is full automated, but watch for password requests.
 * PM2
 * Create React App
 
-
+## TODO
+Add vim installs & plugins scripts
 
