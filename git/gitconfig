@@ -1,6 +1,6 @@
 [core]
 	editor = code --wait
-	excludesfile = /Users/wilgoolsby/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [diff]
     tool = default-difftool
 [difftool "default-difftool"]

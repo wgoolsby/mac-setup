@@ -20,5 +20,8 @@ cp -f cli/zshrc ~/.zshrc
 # It's however not part of oh-my-zsh.
 cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
 
+# Get Hyper ZSH theme
+wget -O $HOME/.oh-my-zsh/themes/hyperzsh.zsh-theme https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/hyperzsh.zsh-theme
+
 # Install z
 brew install z

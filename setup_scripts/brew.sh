@@ -19,7 +19,7 @@ brew update
 brew doctor
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -34,6 +34,7 @@ brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install dark-mode
+brew install mas
 
 # Install Cask
 brew install caskroom/cask/brew-cask
@@ -49,7 +50,7 @@ brew cask install --appdir="~/Applications" sourcetree
 brew cask install --appdir="~/Applications" sequel-pro
 
 # Add .hyperconfig to ~/
-cp -f cli/hyperconfig ~/.hyperconfig
+cp -f cli/hyperconfig ~/.hyper.js
 
 # Add .gitconfig & .gitignore_global to ~/
 cp -f git/gitconfig ~/.gitconfig

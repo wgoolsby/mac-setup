@@ -18,15 +18,12 @@ defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.5
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
 # Expand save panel by default
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+# defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+# defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
-
-# Increase sound quality for Bluetooth headphones/headsets
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1

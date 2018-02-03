@@ -20,8 +20,8 @@ yarn global add trash-cli
 # Install NGINX
 brew install nginx
 # Add .nginxconf /usr/local/etc/nginx
-mv  /usr/local/etc/nginx/nginxconf /usr/local/etc/nginx/nginxconf_backup
-cp dev_env/nginxconf /usr/local/etc/nginx/nginxconf
+mv  /usr/local/etc/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf_backup
+cp dev_env/nginx /usr/local/etc/nginx/nginx.conf
 # Add server files to /usr/local/etc/nginx/servers
 cp dev_env/servers/pathway.conf /usr/local/etc/nginx/servers/pathway.conf
 cp dev_env/servers/education.conf /usr/local/etc/nginx/servers/education.conf

@@ -23,7 +23,7 @@ function runDots() {
             echo "Setting sensible macOS defaults."
             echo "------------------------------"
             echo ""
-            ./macOS.sh
+            sh setup_scripts/macOS.sh
         fi
         if [ $ARG == "brew" ] || [ $ARG == "all" ]; then
             # Run the brew.sh Script
@@ -36,7 +36,7 @@ function runDots() {
             echo "This might awhile to complete, as some formulae need to be installed from source."
             echo "------------------------------"
             echo ""
-            ./brew.sh
+            sh setup_scripts/brew.sh
         fi
         if [ $ARG == "zsh" ] || [ $ARG == "all" ]; then
             # Run the zsh.sh Script
@@ -44,7 +44,7 @@ function runDots() {
             echo "Setting up ZSH and oh-my-zsh."
             echo "------------------------------"
             echo ""
-            ./zsh.sh
+            sh setup_scripts/zsh.sh
         fi
         if [ $ARG == "web" ] || [ $ARG == "all" ]; then
             # Run the web.sh Script
@@ -52,7 +52,15 @@ function runDots() {
             echo "Setting up JavaScript web development environment."
             echo "------------------------------"
             echo ""
-            ./web.sh
+            sh setup_scripts/web.sh
+        fi
+        if [ $ARG == "mas" ] || [ $ARG == "all" ]; then
+            # Run the mas.sh Script
+            echo "------------------------------"
+            echo "Installing Apps from the Mac App Store."
+            echo "------------------------------"
+            echo ""
+            sh setup_scripts/mas.sh
         fi
     done
 
