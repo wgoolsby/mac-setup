@@ -2,6 +2,20 @@
 
 These are my scripts to setup a new Mac.
 
+```git clone https://github.com/wgoolsby/dot-files.git && cd dot-files
+
+sudo sh setup_scripts/new.sh arg
+```
+You can run the script with the following arguments
+* all - runs every script in setup_scripts
+* brew - runs only the brew.sh script
+* macOS - runs only the macOS.sh script
+* web - runs only the web.sh script
+* zsh - runs only the zsh.sh script
+* mas - runs only the mas.sh script
+
+The process is full automated, but watch for password requests.
+
 ## OS
 ### macOS
 
