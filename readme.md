@@ -14,6 +14,7 @@ You can run the script with the following arguments
 * web - runs only the web.sh script
 * zsh - runs only the zsh.sh script
 * mas - runs only the mas.sh script
+* code - runs only the code.sh script
 
 The process is full automated, but watch for password requests.
 
