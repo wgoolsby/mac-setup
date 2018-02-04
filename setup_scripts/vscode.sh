@@ -27,7 +27,7 @@ code --install-extension Rubymaniac.vscode-paste-and-indent
 code --install-extension vsmobile.vscode-react-native
 code --install-extension xabikos.reactsnippets
 code --install-extension robinbentley.sass-indented
-code --install-extension aaronthomas.vscode-snazzy-operator
+code --install-extension idbartosz.darkpp-italic
 code --install-extension wayou.vscode-todo-highlight
 
 # Copy settings file to $HOME/Library/Application Support/Code/User/settings.json
