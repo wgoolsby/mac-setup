@@ -7,6 +7,12 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `osx.sh` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+#Install Fira Code iScript
+#https://github.com/kencrocken/FiraCodeiScript
+cp editors/FiraCodeiScript/FiraCodeiScript-Bold.ttf ~/Library/Fonts/FiraCodeiScript-Bold.ttf
+cp editors/FiraCodeiScript/FiraCodeiScript-Bold.ttf ~/Library/Fonts/FiraCodeiScript-Italic.ttf
+cp editors/FiraCodeiScript/FiraCodeiScript-Bold.ttf ~/Library/Fonts/FiraCodeiScript-Regular.ttf
+
 # Add extensions from marketplace
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
