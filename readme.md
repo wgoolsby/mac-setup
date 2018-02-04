@@ -67,7 +67,7 @@ The process is full automated, but watch for password requests.
 * Create React App
 
 ## TODO
-Add vim installs & plugins scripts
-Prompt for login with MAS CLI
-Adjust icons on the macOS menubar
+* Add vim installs & plugins scripts
+* Prompt for login with MAS CLI
+* Adjust icons on the macOS menubar
 
