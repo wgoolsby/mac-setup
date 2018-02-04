@@ -67,4 +67,6 @@ The process is full automated, but watch for password requests.
 
 ## TODO
 Add vim installs & plugins scripts
+Prompt for login with MAS CLI
+Adjust icons on the macOS menubar
 
