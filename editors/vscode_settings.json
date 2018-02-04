@@ -4,7 +4,7 @@
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.minimap.enabled": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.wordWrap": "on",
   "editor.minimap.maxColumn": 100,
   "editor.autoIndent": false,
@@ -15,5 +15,6 @@
   "workbench.activityBar.visible": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.renderControlCharacters": false,
-  "eslint.packageManager": "yarn"
+  "eslint.packageManager": "yarn",
+  "git.autofetch": true
 }
