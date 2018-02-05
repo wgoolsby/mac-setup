@@ -29,6 +29,7 @@ code --install-extension xabikos.reactsnippets
 code --install-extension robinbentley.sass-indented
 code --install-extension idbartosz.darkpp-italic
 code --install-extension wayou.vscode-todo-highlight
+code --install-extension esbenp.prettier-vscode
 
 # Copy settings file to $HOME/Library/Application Support/Code/User/settings.json
 cp -f editors/vscode_settings.json ~/Library/Application\ Support/Code/User/settings.json
