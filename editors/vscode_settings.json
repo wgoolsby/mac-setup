@@ -29,4 +29,8 @@
   "prettier.parser": "flow",
   "prettier.semi": true,
   "prettier.useTabs": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true
 }
