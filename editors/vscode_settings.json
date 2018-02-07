@@ -17,7 +17,7 @@
   "eslint.packageManager": "yarn",
   "git.autofetch": true,
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Dark++ Italic",
+  "workbench.colorTheme": "VS-Snazzy",
   "prettier.eslintIntegration": false,
   "editor.formatOnSave": true,
   "prettier.printWidth": 120,

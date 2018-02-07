@@ -32,5 +32,8 @@ code --install-extension wayou.vscode-todo-highlight
 code --install-extension esbenp.prettier-vscode
 code --install-extension alefragnani.project-manager
 
+# Pull my custom VS Code theme down from Github and drop it in the .vcode dir
+git clone https://github.com/wgoolsby/vscode-snazzy-theme.git ~/.vscode/extensions/vscode-snazzy-theme
+
 # Copy settings file to $HOME/Library/Application Support/Code/User/settings.json
 cp -f editors/vscode_settings.json ~/Library/Application\ Support/Code/User/settings.json
