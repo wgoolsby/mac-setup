@@ -34,8 +34,7 @@ brew services start mysql
 
 # Install web dev things
 yarn global add pm2
+yarn global add prettier
 yarn global add eslint
+yarn global add eslint-config-airbnb
 yarn global add create-react-app
-
-# Add .eslintrc to ~/
-cp -f editors/eslintrc ~/.eslintrc
