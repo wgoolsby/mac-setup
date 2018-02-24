@@ -6,7 +6,7 @@
   "editor.minimap.enabled": true,
   "editor.fontSize": 18,
   "editor.wordWrap": "on",
-  "editor.minimap.maxColumn": 100,
+  "editor.minimap.maxColumn": 120,
   "editor.autoIndent": false,
   "files.autoSave": "onFocusChange",
   "material-icon-theme.showUpdateMessage": false,
@@ -14,23 +14,16 @@
   "workbench.activityBar.visible": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.renderControlCharacters": false,
-  "eslint.packageManager": "yarn",
+  "eslint.packageManager": "npm",
   "git.autofetch": true,
   "editor.fontLigatures": true,
   "workbench.colorTheme": "VS-Snazzy",
   "prettier.eslintIntegration": false,
   "editor.formatOnSave": true,
-  "prettier.printWidth": 120,
-  "prettier.tabWidth": 2,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "none",
-  "prettier.bracketSpacing": true,
-  "prettier.jsxBracketSameLine": false,
-  "prettier.parser": "flow",
-  "prettier.semi": true,
-  "prettier.useTabs": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "flow.useNPMPackagedFlow": true,
+  "javascript.validate.enable": false
 }
