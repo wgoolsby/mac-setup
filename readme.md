@@ -7,7 +7,9 @@ git clone https://github.com/wgoolsby/mac-setup.git && cd mac-setup
 
 sudo sh setup_scripts/new.sh arg
 ```
+
 You can run the script with the following arguments
+
 * all - runs every script in setup_scripts
 * brew - runs only the brew.sh script
 * macOS - runs only the macOS.sh script
@@ -21,11 +23,13 @@ The process is full automated, but watch for password requests.
 Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 
 ## OS
+
 ### macOS
 
-**NOTE:** Tons of *sensible* tweaks are made to macOS. Look through them and add/remove/update as you see fit.
+**NOTE:** Tons of _sensible_ tweaks are made to macOS. Look through them and add/remove/update as you see fit.
 
 ## Apps
+
 * Hyper
 * Visual Studio Code
 * Google Chrome
@@ -36,7 +40,7 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 
 ## Mac App Store Apps
 
-**NOTE:** This tool will only install Apps you have *"Purchased"*.
+**NOTE:** This tool will only install Apps you have _"Purchased"_.
 
 * Numbers
 * Pages
@@ -46,7 +50,8 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Spark
 
 ## Tools
-* Homebrew 
+
+* Homebrew
 * Cask
 * zsh
 * oh-my-zsh
@@ -54,10 +59,10 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * z
 * GIT
 * Node
-* Yarn
 * Trash CLI
 * NGINX
 * ESLINT
+* Prettier
 * Python
 * wget
 * Mac App Store CLI
@@ -67,7 +72,6 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Create React App
 
 ## TODO
+
 * Add vim installs & plugins scripts
 * Prompt for login with MAS CLI
-* Adjust icons on the macOS menubar
-
