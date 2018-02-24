@@ -69,7 +69,6 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * MySQL
 * Dark Mode
 * PM2
-* Create React App
 
 ## TODO
 
