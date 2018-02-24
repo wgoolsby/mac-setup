@@ -11,11 +11,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Remove outdated versions from the cellar.
 brew cleanup
 
-# Install Yarn
-brew install yarn
-
 # Make rm safe
-yarn global add trash-cli
+npm install --global trash-cli
 
 # Install NGINX
 brew install nginx
@@ -33,8 +30,11 @@ brew tap homebrew/services
 brew services start mysql
 
 # Install web dev things
-yarn global add pm2
-yarn global add prettier
-yarn global add eslint
-yarn global add eslint-config-airbnb
-yarn global add create-react-app
+npm install --global pm2
+npm install --global prettier
+npm install --global eslint
+npm install --global eslint-config-airbnb
+npm install --global eslint-plugin-jsx-a11y
+npm install --global eslint-plugin-react
+npm install --global eslint-plugin-import
+npm install --global ajv-keywords
