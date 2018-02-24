@@ -76,6 +76,10 @@ alias vimconfig="code ~/.vimrc"
 alias rm=trash
 alias gs="git status"
 alias ga="git add ."
+alias gca="git commit -a"
+alias gph="git push"
+alias gpl="git pull"
+
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
