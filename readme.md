@@ -44,10 +44,10 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 
 * Numbers
 * Pages
-* Magnet
 * Xcode
-* Desk Cover
-* Spark
+* Parcel
+* Disk Doctor
+* App Cleaner
 
 ## Tools
 
