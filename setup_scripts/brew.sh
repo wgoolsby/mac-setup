@@ -11,7 +11,7 @@
 # Install if we don't have it
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 fi
 
 # Make sure we’re using the latest Homebrew.
@@ -34,8 +34,6 @@ brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install mas
-brew install romkatv/powerlevel10k/powerlevel10k
-# Don't forget to restart and run p10k configure for font install
 
 # Install Cask
 brew install caskroom/cask/brew-cask

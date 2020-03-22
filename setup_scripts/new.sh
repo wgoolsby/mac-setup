@@ -7,6 +7,9 @@ function setupMac() {
     # Keep-alive: update existing `sudo` time stamp until the script has finished
     # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+    # Agree to Xcode license
+    sudo xcodebuild -license accept
+
     # Run sections based on command line arguments
     for ARG in "$@"
     do
@@ -78,7 +81,6 @@ function setupMac() {
 }
 
 read -p "This script may overwrite existing files in your home directory. Are you sure? (Y/n) " -n 1;
-echo -e "\e[1;97;41mYou need to manually log in to the App Store first!"
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     setupMac $@
