@@ -65,10 +65,12 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
   * git-lfs
   * git-flow
   * git-extras
-* node
+* nvm
+  * node
 * Trash CLI
 * nginx
 * eslint
+  * airbnb style guide
 * Prettier
 * Python
 * wget
@@ -81,3 +83,4 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Finish migration to iTerm2 
   * Build a profile
 * Need to add a default .prettierrc file.
+* Add rubyenv
