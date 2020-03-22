@@ -4,6 +4,6 @@
 # localhost is used to configure the loopback interface
 # when the system is booting.  Do not change this entry.
 ##
-127.0.0.1	    localhost app.pathwayre-local.com pathwayre-local.com admin.pathwayre-local.com api.pathwayre-local.com api-email.pathwayre-local.com acme.pathwayre-local.com testtest.pathwayre-local.com
+127.0.0.1	      localhost
 255.255.255.255	broadcasthost
-::1             localhost pathwayre-local.com admin.pathwayre-local.com api.pathwayre-local.com api-email.pathwayre-local.com acme.pathwayre-local.com
+::1             localhost 

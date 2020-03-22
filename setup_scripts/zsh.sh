@@ -14,14 +14,13 @@ curl -L http://install.ohmyz.sh | sh
 # Add .zshrc from repo to ~/
 cp -f cli/zshrc ~/.zshrc
 
-
 # Add syntax highlighting
-# I have it installed in my ~/.oh-my.zsh folder because it's convenient. 
+# I have it installed in my ~/.oh-my.zsh folder becau se it's convenient. 
 # It's however not part of oh-my-zsh.
-cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
+cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git 
 
-# Get Hyper ZSH theme
-wget -O $HOME/.oh-my-zsh/themes/hyperzsh.zsh-theme https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/hyperzsh.zsh-theme
+# Add powerlevel 10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 # Install z
 brew install z

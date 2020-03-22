@@ -78,6 +78,7 @@ function setupMac() {
 }
 
 read -p "This script may overwrite existing files in your home directory. Are you sure? (Y/n) " -n 1;
+echo -e "\e[1;97;41mYou need to manually log in to the App Store first!"
 echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     setupMac $@

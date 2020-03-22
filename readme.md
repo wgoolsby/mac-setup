@@ -30,24 +30,27 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 
 ## Apps
 
-* Hyper
-* Visual Studio Code
-* Google Chrome
+* iTerm2
 * Slack
-* Toggl
-* Sourcetree
+* Visual Studio Code
 * Sequel Pro
+* Google Chrome
+* Mozilla Firefox
+* Figma
+* SF Symbols
+* MacDown
 
 ## Mac App Store Apps
 
 **NOTE:** This tool will only install Apps you have _"Purchased"_.
+**NOTE:** You need to manually log in to the App Store first.
 
 * Numbers
 * Pages
 * Xcode
-* Parcel
+* DuckDuckGo Privacy Essentials
+* Magnet
 * Disk Doctor
-* App Cleaner
 
 ## Tools
 
@@ -57,20 +60,25 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * oh-my-zsh
 * zsh Sytax highlighting
 * z
-* GIT
-* Node
+* powerlevel 10k
+* git
+  * git-lfs
+  * git-flow
+  * git-extras
+* node
 * Trash CLI
-* NGINX
-* ESLINT
+* nginx
+* eslint
 * Prettier
 * Python
 * wget
 * Mac App Store CLI
 * MySQL
-* Dark Mode
-* PM2
 
 ## TODO
 
 * Add vim installs & plugins scripts
-* Prompt for login with MAS CLI
+* Finish migration to iTerm2 
+  * Misterioso & Twilight themes
+  * Build a profile
+* Webdev stuff is likely out of date 

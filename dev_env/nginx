@@ -33,7 +33,6 @@ http {
   # Server includes
   ##
 
-  include		/usr/local/etc/nginx/servers/pathway.conf;
   include     /usr/local/etc/nginx/servers/education.conf;
 
 }

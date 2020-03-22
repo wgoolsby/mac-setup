@@ -20,7 +20,6 @@ brew install nginx
 mv  /usr/local/etc/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf_backup
 cp dev_env/nginx /usr/local/etc/nginx/nginx.conf
 # Add server files to /usr/local/etc/nginx/servers
-cp dev_env/servers/pathway.conf /usr/local/etc/nginx/servers/pathway.conf
 cp dev_env/servers/education.conf /usr/local/etc/nginx/servers/education.conf
 
 
@@ -30,7 +29,6 @@ brew tap homebrew/services
 brew services start mysql
 
 # Install web dev things
-npm install --global pm2
 npm install --global prettier
 npm install --global eslint
 npm install --global eslint-config-airbnb

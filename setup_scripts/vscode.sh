@@ -18,19 +18,22 @@ code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension naumovs.color-highlight
-code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension Zignd.html-css-class-completion
-code --install-extension PKief.material-icon-theme
-code --install-extension ms-vscode.node-debug2
-code --install-extension Rubymaniac.vscode-paste-and-indent
-code --install-extension vsmobile.vscode-react-native
-code --install-extension xabikos.reactsnippets
-code --install-extension robinbentley.sass-indented
+code --install-extension pranaygp.vscode-css-peek
 code --install-extension idbartosz.darkpp-italic
-code --install-extension wayou.vscode-todo-highlight
-code --install-extension esbenp.prettier-vscode
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension flowtype.flow-for-vscode
+code --install-extension ritwickdey.liveserver
+code --install-extension pkief.material-icon-theme
+code --install-extension ms-vscode.node-debug2
+code --install-extension rubymaniac.vscode-paste-and-indent
+code --install-extension remimarsal.prettier-now
 code --install-extension alefragnani.project-manager
+code --install-extension ms-python.python
+code --install-extension robinbentley.sass-indented
+code --install-extension wil.vs-snazzy
+code --install-extension wayou.vscode-todo-highlight
 
 # Pull my custom VS Code theme down from Github and drop it in the .vcode dir
 git clone https://github.com/wgoolsby/vscode-snazzy-theme.git ~/.vscode/extensions/vscode-snazzy-theme
