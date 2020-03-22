@@ -34,6 +34,8 @@ brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install mas
+brew install romkatv/powerlevel10k/powerlevel10k
+# Don't forget to restart and run p10k configure for font install
 
 # Install Cask
 brew install caskroom/cask/brew-cask

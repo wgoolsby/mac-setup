@@ -19,8 +19,5 @@ cp -f cli/zshrc ~/.zshrc
 # It's however not part of oh-my-zsh.
 cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git 
 
-# Add powerlevel 10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-
 # Install z
 brew install z
