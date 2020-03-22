@@ -5,7 +5,8 @@ These are my scripts to setup a new Mac.
 ```
 git clone https://github.com/wgoolsby/mac-setup.git && cd mac-setup
 
-sudo sh setup_scripts/new.sh arg
+[sudo] sh setup_scripts/new.sh arg
+**sudo is hopefully no longer needed**
 ```
 
 You can run the script with the following arguments
