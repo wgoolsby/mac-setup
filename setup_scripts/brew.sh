@@ -35,6 +35,12 @@ brew install git-flow
 brew install git-extras
 brew install mas
 
+# Update global git config
+$ git lfs install
+
+# Update system git config
+$ git lfs install --system
+
 # Install Cask
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
