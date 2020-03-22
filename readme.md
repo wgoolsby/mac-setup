@@ -39,6 +39,7 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * SF Symbols
 * MacDown
 * Discord
+* Zoom
 
 ## Mac App Store Apps
 
