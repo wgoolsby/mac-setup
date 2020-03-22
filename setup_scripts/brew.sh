@@ -49,6 +49,7 @@ brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" figma
 brew cask install --appdir="/Applications" sf-symbols
 brew cask install --appdir="/Applications" macdown
+brew cask install --appdir="/Applications" discord
 
 # TODO  - Migrate to iTerm 2
 

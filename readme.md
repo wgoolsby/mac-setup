@@ -38,6 +38,7 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Figma
 * SF Symbols
 * MacDown
+* Discord
 
 ## Mac App Store Apps
 
