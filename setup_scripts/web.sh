@@ -34,9 +34,4 @@ brew services start mysql
 
 # Install web dev things
 npm install --global prettier
-npm install --global eslint
-npm install --global eslint-config-airbnb
-npm install --global eslint-plugin-jsx-a11y
-npm install --global eslint-plugin-react
-npm install --global eslint-plugin-import
-npm install --global ajv-keywords
+npx install-peerdeps --global eslint-config-airbnb
