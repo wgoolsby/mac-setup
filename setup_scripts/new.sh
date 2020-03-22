@@ -2,14 +2,27 @@
 
 function setupMac() {
     # Ask for the administrator password upfront
-    sudo -v
+    # sudo -v
 
     # Keep-alive: update existing `sudo` time stamp until the script has finished
-    while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+    # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
     # Run sections based on command line arguments
     for ARG in "$@"
     do
+        if [ $ARG == "brew" ] || [ $ARG == "all" ]; then
+            # Run the brew.sh Script
+            # For a full listing of installed formulae and apps, refer to
+            # the commented brew.sh source file directly and tweak it to
+            # suit your needs.
+            echo ""
+            echo "------------------------------"
+            echo "Installing Homebrew along with some common formulae and apps."
+            echo "This might awhile to complete, as some formulae need to be installed from source."
+            echo "------------------------------"
+            echo ""
+            sh setup_scripts/brew.sh
+        fi
         if [ $ARG == "macOS" ] || [ $ARG == "all" ]; then
             # Run the macOS.sh Script
             # I strongly suggest you read through the commented osx.sh
@@ -24,19 +37,6 @@ function setupMac() {
             echo "------------------------------"
             echo ""
             sh setup_scripts/macOS.sh
-        fi
-        if [ $ARG == "brew" ] || [ $ARG == "all" ]; then
-            # Run the brew.sh Script
-            # For a full listing of installed formulae and apps, refer to
-            # the commented brew.sh source file directly and tweak it to
-            # suit your needs.
-            echo ""
-            echo "------------------------------"
-            echo "Installing Homebrew along with some common formulae and apps."
-            echo "This might awhile to complete, as some formulae need to be installed from source."
-            echo "------------------------------"
-            echo ""
-            sh setup_scripts/brew.sh
         fi
         if [ $ARG == "web" ] || [ $ARG == "all" ]; then
             # Run the web.sh Script
