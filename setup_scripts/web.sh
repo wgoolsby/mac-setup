@@ -26,7 +26,6 @@ cp dev_env/nginx /usr/local/etc/nginx/nginx.conf
 # Add server files to /usr/local/etc/nginx/servers
 cp dev_env/servers/education.conf /usr/local/etc/nginx/servers/education.conf
 
-
 # Install and start MySQL
 brew install mysql
 brew tap homebrew/services
@@ -35,3 +34,6 @@ brew services start mysql
 # Install web dev things
 npm install --global prettier
 npx install-peerdeps --global eslint-config-airbnb
+
+# setup .eslintrc
+cp editors/eslintrc.json ~/.eslintrc

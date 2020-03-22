@@ -44,7 +44,6 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 ## Mac App Store Apps
 
 **NOTE:** This tool will only install Apps you have _"Purchased"_.
-**NOTE:** You need to manually log in to the App Store first.
 
 * Numbers
 * Pages
@@ -80,6 +79,5 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 
 * Add vim installs & plugins scripts
 * Finish migration to iTerm2 
-  * Misterioso & Twilight themes
   * Build a profile
-* Webdev stuff is likely out of date 
+* Need to add a default .prettierrc file.
