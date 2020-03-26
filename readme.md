@@ -58,7 +58,7 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Cask
 * zsh
 * oh-my-zsh
-* zsh Sytax highlighting
+* zsh Syntax highlighting
 * z
 * powerlevel 10k
 * git
