@@ -2,11 +2,12 @@
 
 These are my scripts to setup a new Mac.
 
+## How to use
+
 ```
 git clone https://github.com/wgoolsby/mac-setup.git && cd mac-setup
 
-[sudo] sh setup_scripts/new.sh arg
-**sudo is hopefully no longer needed**
+sh setup_scripts/new.sh arg
 ```
 
 You can run the script with the following arguments
@@ -58,7 +59,7 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Cask
 * zsh
 * oh-my-zsh
-* zsh Sytax highlighting
+* zsh Syntax highlighting
 * z
 * powerlevel 10k
 * git
