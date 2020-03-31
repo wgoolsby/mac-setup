@@ -28,12 +28,16 @@ brew install wget --with-iri
 brew install python
 brew install python3
 
-# Install other useful binaries.
+# Install other useful things.
 brew install git
 brew install git-lfs
 brew install git-flow
 brew install git-extras
+brew install tldr
+brew install tree
+brew install htop
 brew install mas
+
 
 # Update global git config
 $ git lfs install
@@ -56,7 +60,8 @@ brew cask install --appdir="/Applications" figma
 brew cask install --appdir="/Applications" sf-symbols
 brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" discord
-
+brew cask install --appdir="/Applications" rectangle
+brew cask install --appdir="/Applications" licecap
 # TODO  - Migrate to iTerm 2
 
 # Add .gitconfig & .gitignore_global to ~/

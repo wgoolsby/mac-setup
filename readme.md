@@ -39,6 +39,8 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * SF Symbols
 * MacDown
 * Discord
+* Rectangle
+* LICEcap
 
 ## Mac App Store Apps
 
@@ -48,7 +50,6 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Pages
 * Xcode
 * DuckDuckGo Privacy Essentials
-* Magnet
 * Disk Doctor
 
 ## Tools
@@ -75,6 +76,9 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * wget
 * Mac App Store CLI
 * MySQL
+* tldr
+* tree
+* htop
 
 ## TODO
 

@@ -5,5 +5,4 @@ mas install 409203825 #Numbers
 mas install 409201541 #Pages
 mas install 497799835 #Xcode
 mas install 1482920575 #DuckDuckGo Privacy Essentials
-mas install 441258766 #Magnet
 mas install 455970963 #Disk Doctor
