@@ -22,7 +22,7 @@ code --install-extension ritwickdey.liveserver
 code --install-extension pkief.material-icon-theme
 code --install-extension ms-vscode.node-debug2
 code --install-extension rubymaniac.vscode-paste-and-indent
-code --install-extension remimarsal.prettier-now
+code --install-extension esbenp.prettier-vscode
 code --install-extension alefragnani.project-manager
 code --install-extension ms-python.python
 code --install-extension robinbentley.sass-indented
