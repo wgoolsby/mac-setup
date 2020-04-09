@@ -88,3 +88,4 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
   * Build a profile
 * Need to add a default .prettierrc file.
 * Add rubyenv
+* How to install a font with cli
