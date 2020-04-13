@@ -1,6 +1,6 @@
 [core]
 	editor = code --wait
-	excludesfile = /Users/wil/.gitignore_global
+	excludesfile = /Users/wilgoolsby/.gitignore_global
 [user]
 	name = Wil Goolsby
 	email = wil@wilgoolsby.com
