@@ -15,6 +15,8 @@
   "editor.insertSpaces": true,
   "editor.minimap.enabled": true,
   "editor.minimap.maxColumn": 120,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.renderControlCharacters": false,
