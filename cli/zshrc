@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -46,9 +53,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins+=(git brew extract node)
+plugins+=(alias-finder brew common-aliases copydir copyfile extract git jsontools node npm osx vscode web-search z)
 
 source $ZSH/oh-my-zsh.sh
+
+# iTerm2 shell integration
+source ~/.iterm2_shell_integration.zsh
 
 # User configuration
 
@@ -76,7 +86,7 @@ alias vimconfig="code ~/.vimrc"
 # alias vim="/usr/local/Cellar/vim/[version]/bin/vim"
 alias rm=trash
 alias gs="git status"
-alias ga="git add ."
+alias ga="git add -A"
 alias gca="git commit -a"
 alias gph="git push"
 alias gpl="git pull"
@@ -100,7 +110,7 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="/usr/local/mysql/bin:$PATH"
 
 # Ruby
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
 
 #gnu getopt

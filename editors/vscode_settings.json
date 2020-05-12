@@ -1,35 +1,90 @@
 {
-	"editor.fontFamily": "'Fira Code iScript'",
-	"editor.tabSize": 2,
-	"editor.insertSpaces": true,
-	"editor.detectIndentation": false,
-	"editor.minimap.enabled": true,
-	"editor.fontSize": 18,
-	"editor.wordWrap": "on",
-	"editor.minimap.maxColumn": 120,
-	"files.autoSave": "onFocusChange",
-	"material-icon-theme.showUpdateMessage": false,
-	"workbench.statusBar.visible": true,
-	"workbench.activityBar.visible": true,
-	"workbench.iconTheme": "material-icon-theme",
-	"editor.renderControlCharacters": false,
-	"eslint.packageManager": "npm",
-	"git.autofetch": true,
-	"editor.fontLigatures": true,
-	"workbench.colorTheme": "VS-Snazzy",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.tslint": true,
-		"source.fixAll.eslint": true
-	},
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
-	},
-	"emmet.triggerExpansionOnTab": true,
-	"flow.useNPMPackagedFlow": true,
-	"javascript.validate.enable": false,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"liveServer.settings.AdvanceCustomBrowserCmdLine": "/Applications/Firefox Developer Edition.app",
-	"material-icon-theme.activeIconPack": "react"
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.cursorBlinking": "phase",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Fira Code iScript'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 120,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.renderControlCharacters": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "constant.language",
+          "emphasis",
+          "entity.name.type.module",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "keyword.control.module.js",
+          "markup.italic",
+          "modifier",
+          "punctuation.accessor",
+          "punctuation.definition.comment",
+          "source.java",
+          "storage",
+          "storage.type.annotation",
+          "storage.type",
+          "string.quoted.docstring",
+          "storage.modifier",
+          "storage.type.class.js",
+          "support.module",
+          "support.node",
+          "support.type.object",
+          "variable.language.special.self",
+          "variable.language.this",
+          "variable.language.this.js",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["markup.bold markup.italic", "markup.italic markup.bold"],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.packageManager": "npm",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.autoSave": "onFocusChange",
+  "flow.useNPMPackagedFlow": true,
+  "git.autofetch": true,
+  "javascript.validate.enable": false,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "/Applications/Firefox Developer Edition.app",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.singleQuote": true,
+  "prettier.requireConfig": true,
+  "prettier.endOfLine": "lf",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": true,
+  "window.zoomLevel": 0
 }
