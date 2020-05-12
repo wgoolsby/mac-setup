@@ -83,6 +83,8 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 
 ## TODO
 
+*Redo the hierarchy to better be a .dotfiles repo with setup assitance.
+
 * Add vim installs & plugins scripts
 * Finish migration to iTerm2 
   * Build a profile
