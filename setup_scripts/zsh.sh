@@ -18,6 +18,8 @@ cp -f cli/zshrc ~/.zshrc
 # Add Powerlevel10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
 
+cp -f cli/p10k.zsh ~/.p10k.zsh
+
 # Add syntax highlighting
 # I have it installed in my ~/.oh-my.zsh folder becau se it's convenient. 
 # It's however not part of oh-my-zsh.
