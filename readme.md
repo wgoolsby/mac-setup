@@ -17,7 +17,6 @@ You can run the script with the following arguments
 * macOS - runs only the macOS.sh script
 * web - runs only the web.sh script
 * zsh - runs only the zsh.sh script
-* mas - runs only the mas.sh script
 * code - runs only the code.sh script
 
 Font courtesy of https://github.com/kencrocken/FiraCodeiScript

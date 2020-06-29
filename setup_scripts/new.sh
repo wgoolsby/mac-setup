@@ -49,14 +49,6 @@ function setupMac() {
             echo ""
             sh setup_scripts/web.sh
         fi
-        if [ $ARG == "mas" ] || [ $ARG == "all" ]; then
-            # Run the mas.sh Script
-            echo "------------------------------"
-            echo "Installing Apps from the Mac App Store."
-            echo "------------------------------"
-            echo ""
-            sh setup_scripts/mas.sh
-        fi
         if [ $ARG == "zsh" ] || [ $ARG == "all" ]; then
             # Run the zsh.sh Script
             echo "------------------------------"
