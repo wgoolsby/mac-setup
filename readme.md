@@ -33,25 +33,12 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * iTerm2
 * Slack
 * Visual Studio Code
-* Sequel Pro
-* Google Chrome
 * Mozilla Firefox
 * Figma
 * SF Symbols
-* MacDown
 * Discord
 * Rectangle
 * LICEcap
-
-## Mac App Store Apps
-
-**NOTE:** This tool will only install Apps you have _"Purchased"_.
-
-* Numbers
-* Pages
-* Xcode
-* DuckDuckGo Privacy Essentials
-* Disk Doctor
 
 ## Tools
 
@@ -69,14 +56,11 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * nvm
   * node
 * Trash CLI
-* nginx
 * eslint
   * airbnb style guide
 * Prettier
 * Python
 * wget
-* Mac App Store CLI
-* MySQL
 * tldr
 * tree
 * htop
@@ -86,8 +70,6 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 *Redo the hierarchy to better be a .dotfiles repo with setup assitance.
 
 * Add vim installs & plugins scripts
-* Finish migration to iTerm2 
-  * Build a profile
-* Need to add a default .prettierrc file.
-* Add rubyenv
+* Finish removing webdev stuff
+* Research any needs for Swift and iOS dev
 * How to install a font with cli
