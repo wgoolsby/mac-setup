@@ -106,26 +106,9 @@ fi
 # Python executable
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
-# MySQL
-export PATH="/usr/local/mysql/bin:$PATH"
-
-# Ruby
-# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
-
-
 #gnu getopt
 export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 
 #ncurses
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-# export PATH="$PATH:$HOME/.rvm/bin"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-eval "$(rbenv init -)"

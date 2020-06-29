@@ -36,8 +36,6 @@ brew install git-extras
 brew install tldr
 brew install tree
 brew install htop
-brew install mas
-
 
 # Update global git config
 $ git lfs install
@@ -53,12 +51,9 @@ brew tap caskroom/versions
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" visual-studio-code
-brew cask install --appdir="/Applications" sequel-pro
-brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" figma
 brew cask install --appdir="/Applications" sf-symbols
-brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" discord
 brew cask install --appdir="/Applications" rectangle
 brew cask install --appdir="/Applications" licecap
@@ -66,6 +61,7 @@ brew cask install --appdir="/Applications" licecap
 
 # Add .gitconfig & .gitignore_global to ~/
 cp -f git/gitconfig ~/.gitconfig
+cp -f git/gitconfig ~/.gitconfig-local
 cp -f git/gitignore_global ~/.gitignore_global
 
 # Remove outdated versions from the cellar.

@@ -18,18 +18,10 @@ brew cleanup
 # Make rm safe
 npm install --global trash-cli
 
-# Install NGINX
-brew install nginx
-# Add .nginxconf /usr/local/etc/nginx
-mv  /usr/local/etc/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf_backup
-cp dev_env/nginx /usr/local/etc/nginx/nginx.conf
-# Add server files to /usr/local/etc/nginx/servers
-cp dev_env/servers/education.conf /usr/local/etc/nginx/servers/education.conf
-
 # Install and start MySQL
-brew install mysql
-brew tap homebrew/services
-brew services start mysql
+# brew install mysql
+# brew tap homebrew/services
+# brew services start mysql
 
 # Install web dev things
 npm install --global prettier

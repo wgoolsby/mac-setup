@@ -77,7 +77,7 @@
   "flow.useNPMPackagedFlow": true,
   "git.autofetch": true,
   "javascript.validate.enable": false,
-  "liveServer.settings.AdvanceCustomBrowserCmdLine": "/Applications/Firefox Developer Edition.app",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "/Applications/Firefox.app",
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.singleQuote": true,
   "prettier.requireConfig": true,
@@ -88,5 +88,7 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": true,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "files.associations": {
+  }
 }
