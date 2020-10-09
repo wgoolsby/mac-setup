@@ -37,6 +37,7 @@ brew install tldr
 brew install tree
 brew install htop
 
+
 # Update global git config
 $ git lfs install
 
@@ -46,6 +47,8 @@ $ git lfs install --system
 # Install Cask
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
+
+brew tap homebrew/cask-fonts
 
 # Casks
 brew cask install --appdir="/Applications" iterm2
@@ -57,6 +60,8 @@ brew cask install --appdir="/Applications" sf-symbols
 brew cask install --appdir="/Applications" discord
 brew cask install --appdir="/Applications" rectangle
 brew cask install --appdir="/Applications" licecap
+brew cask install font-victor-mono
+
 # TODO  - Migrate to iTerm 2
 
 # Add .gitconfig & .gitignore_global to ~/

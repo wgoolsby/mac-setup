@@ -26,21 +26,6 @@ function setupMac() {
             echo ""
             sh setup_scripts/brew.sh
         fi
-        if [ $ARG == "macOS" ] || [ $ARG == "all" ]; then
-            # Run the macOS.sh Script
-            # I strongly suggest you read through the commented osx.sh
-            # source file and tweak any settings based on your personal
-            # preferences. The script defaults are intended for you to
-            # customize. For example, if you are not running an SSD you
-            # might want to change some of the settings listed in the
-            # SSD section.
-            echo ""
-            echo "------------------------------"
-            echo "Setting sensible macOS defaults."
-            echo "------------------------------"
-            echo ""
-            sh setup_scripts/macOS.sh
-        fi
         if [ $ARG == "web" ] || [ $ARG == "all" ]; then
             # Run the web.sh Script
             echo "------------------------------"

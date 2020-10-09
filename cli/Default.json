@@ -61,7 +61,7 @@
     "Red Component" : 0.76260745525360107,
     "Blue Component" : 0.42418986558914185
   },
-  "Use Non-ASCII Font" : false,
+  "Use Non-ASCII Font" : true,
   "Link Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
@@ -318,7 +318,7 @@
     "Blue Component" : 0.078821629285812378
   },
   "Blur" : true,
-  "Normal Font" : "MesloLGS-NF-Regular 13",
+  "Normal Font" : "VictorMono-Regular 11",
   "Vertical Spacing" : 1,
   "Ansi 7 Color" : {
     "Green Component" : 1,
@@ -352,7 +352,7 @@
   },
   "Screen" : -1,
   "HotKey Characters Ignoring Modifiers" : "`",
-  "Non Ascii Font" : "Monaco 12",
+  "Non Ascii Font" : "MesloLGS-NF-Regular 12",
   "Ansi 13 Color" : {
     "Green Component" : 0.86099404096603394,
     "Red Component" : 0.81614553928375244,
@@ -368,5 +368,6 @@
     "Green Component" : 0.74553430080413818,
     "Red Component" : 0.70590567588806152,
     "Blue Component" : 0.4848540723323822
-  }
+  },
+  "ASCII Ligatures" : true
 }
