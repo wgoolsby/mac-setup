@@ -14,18 +14,11 @@ You can run the script with the following arguments
 
 * all - runs every script in setup_scripts
 * brew - runs only the brew.sh script
-* macOS - runs only the macOS.sh script
 * web - runs only the web.sh script
 * zsh - runs only the zsh.sh script
 * code - runs only the code.sh script
 
 Font courtesy of https://github.com/kencrocken/FiraCodeiScript
-
-## OS
-
-### macOS
-
-**NOTE:** Tons of _sensible_ tweaks are made to macOS. Look through them and add/remove/update as you see fit.
 
 ## Apps
 
@@ -63,6 +56,7 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * tldr
 * tree
 * htop
+* Victor Mono
 
 ## TODO
 
@@ -71,4 +65,3 @@ Font courtesy of https://github.com/kencrocken/FiraCodeiScript
 * Add vim installs & plugins scripts
 * Finish removing webdev stuff
 * Research any needs for Swift and iOS dev
-* How to install a font with cli
